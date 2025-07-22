@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "push-chain-sdk": "github:pushchain/push-chain-sdk"
+  }
+}

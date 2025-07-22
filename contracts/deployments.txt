@@ -1,0 +1,29 @@
+PUSH_CHAIN_CONTRACT_ADDRESSES = {
+  REGISTRY: "0x44F2a55524737738B4FD059dd5b4Ac28F8859E34",
+  PRICE_ORACLE: "0x1AA094C90309FE0a364d83F76ea8299D63c4fa0E",
+  REGISTRAR: "0x8609bCe200E073eDEE6848Cc0B2b681C026b0397",
+  RESOLVER: "0xf7C2f0056663ddbAf78380F50FF0ba9cB0a4e84D", 
+  NAME_REGISTRY: "0x7EeFaBd8517Fa7b048e113e82C33A5B717E4049a",
+  CONTROLLER: "0xB5DFC82494F889f4Cef69BEB92d403b601666974"
+}
+
+Deployed Contracts:
+-------------------
+PushRegistry: 0x44F2a55524737738B4FD059dd5b4Ac28F8859E34
+PriceOracle: 0x1AA094C90309FE0a364d83F76ea8299D63c4fa0E
+BaseRegistrar: 0x8609bCe200E073eDEE6848Cc0B2b681C026b0397
+PublicResolver: 0xf7C2f0056663ddbAf78380F50FF0ba9cB0a4e84D
+NameRegistry: 0x7EeFaBd8517Fa7b048e113e82C33A5B717E4049a
+RegistrarController: 0xB5DFC82494F889f4Cef69BEB92d403b601666974
+
+✅ All contracts deployed and verified on Push Chain Donut Testnet (Chain ID: 42101)
+🔗 Explorer: https://donut.push.network/
+📅 Deployed: $(date)
+
+Verified Contract Links:
+- PushRegistry: https://donut.push.network/address/0x44F2a55524737738B4FD059dd5b4Ac28F8859E34#code
+- PriceOracle: https://donut.push.network/address/0x1AA094C90309FE0a364d83F76ea8299D63c4fa0E#code
+- BaseRegistrar: https://donut.push.network/address/0x8609bCe200E073eDEE6848Cc0B2b681C026b0397#code
+- PublicResolver: https://donut.push.network/address/0xf7C2f0056663ddbAf78380F50FF0ba9cB0a4e84D#code
+- NameRegistry: https://donut.push.network/address/0x7EeFaBd8517Fa7b048e113e82C33A5B717E4049a#code
+- RegistrarController: https://donut.push.network/address/0xB5DFC82494F889f4Cef69BEB92d403b601666974#code
