@@ -6,9 +6,8 @@ This is a **decentralized Tic-Tac-Toe game (DApp)** built with **React**, suppor
 
 ## 🚀 Features
 - Classic 3x3 Tic-Tac-Toe gameplay
-- Wallet connection for player authentication (e.g., RainbowKit / Push Wallet)
-- Game result tracking and interaction with a smart contract (Sepolia / other testnets)
-- Clean and responsive UI
+- Push wallet connection for player authentication 
+- Game result tracking and interaction with a smart contract
 
 ---
 
