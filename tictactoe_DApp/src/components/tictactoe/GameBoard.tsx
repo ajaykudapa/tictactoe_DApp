@@ -72,7 +72,7 @@ const GameBoard = ({
       [0, 4, 8],
       [2, 4, 6],
     ];
-    for (let [a, b1, c] of lines) {
+    for (const [a, b1, c] of lines) {
       if (b[a] && b[a] === b[b1] && b[a] === b[c]) return b[a];
     }
     return null;
@@ -123,7 +123,12 @@ const GameBoard = ({
     if ((winner || isDraw) && !submitted) {
       submitGameToChain();
     }
-  }, [winner, isDraw]);
+  }, [winner, isDraw, submitted, submitGameToChain]);
+
+  // Check for draw when board changes
+  useEffect(() => {
+    checkDraw(board);
+  }, [board, winner, checkDraw]);
 
   return (
     <div className="flex flex-col items-center gap-4 mt-4 text-white">

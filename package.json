@@ -1,5 +1,17 @@
 {
+  "name": "tictactoe-dapp",
+  "version": "1.0.0",
+  "description": "TicTacToe DApp with Push Chain integration",
+  "scripts": {
+    "dev": "cd tictactoe_DApp && npm run dev",
+    "build": "cd tictactoe_DApp && npm run build",
+    "start": "cd tictactoe_DApp && npm run start",
+    "lint": "cd tictactoe_DApp && npm run lint"
+  },
   "dependencies": {
     "push-chain-sdk": "github:pushchain/push-chain-sdk"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }

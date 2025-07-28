@@ -3,7 +3,12 @@ import React, { useState } from "react";
 import { db } from "@/firebase";
 import { ref, get } from "firebase/database";
 
-const JoinGame = ({ setGameCode, setPlayer }: any) => {
+interface JoinGameProps {
+  setGameCode: (code: string) => void;
+  setPlayer: (player: string) => void;
+}
+
+const JoinGame = ({ setGameCode, setPlayer }: JoinGameProps) => {
   const [inputCode, setInputCode] = useState("");
 
   const handleJoin = async () => {

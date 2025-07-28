@@ -3,7 +3,12 @@ import React from "react";
 import { db } from "@/firebase";
 import { ref, set } from "firebase/database";
 
-const CreateGame = ({ setGameCode, setPlayer }: any) => {
+interface CreateGameProps {
+  setGameCode: (code: string) => void;
+  setPlayer: (player: string) => void;
+}
+
+const CreateGame = ({ setGameCode, setPlayer }: CreateGameProps) => {
   const handleCreate = () => {
     const code = Math.random().toString(36).substring(2, 7).toUpperCase();
     set(ref(db, `games/${code}`), {
